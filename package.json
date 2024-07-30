@@ -1,0 +1,28 @@
+{
+  "name": "playwrightcustomframe",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test:api": "playwright test --config=api.config.ts --project=Chromium",
+    "test:dsl": "playwright test --config=dsl.config.ts",
+    "test:poAndJest": "playwright test --config=poAndJest.config.ts",
+    "test:real": "playwright test --config=realExamples.config.ts",
+    "test:suite": "playwright test --config=suite.config.ts",
+    "test:fixtures": "playwright test --config=fixtures.config.ts",
+    "scrap:wu": "playwright test --config=wunderground.config.ts",
+    "test:iris": "playwright test --config=irisAi.config.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.44.1"
+  },
+  "dependencies": {
+    "@faker-js/faker": "^8.4.1",
+    "dotenv": "^16.4.5",
+    "grep": "^0.1.0",
+    "xlsx": "^0.18.5"
+  }
+}

@@ -1,0 +1,13 @@
+# Dependency directory
+node_modules/
+# Local Report
+/test-results/
+/playwright-report/
+/playwright/.cache/
+/playwright/.system/
+/.system/
+# oaf-v2
+/pom/oaf-v2/
+/tests/oaf-v2
+# dotenv
+.env
